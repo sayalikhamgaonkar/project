@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<title>Shopping Cart</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="/home/sayali/Desktop/export/Storage.js" type="text/javascript"></script>
+<link href="/home/sayali/Desktop/export/StorageStyle.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+body{
+
+ background-image: url('/home/sayali/Downloads/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.content
+{
+width: 50%;
+padding-left:50px;
+
+margin: 100px auto;
+}
+
+</style>
+</head>
+</body>
+
+<div class="Product">
+<h1>Shopping Cart</h1>
+
+<div class="image">
+<img src="/home/sayali/Desktop/shirt.png" width="300" height="300" >
+</div>
+
+<P ALIGN=CENTER>The red T-shirt for the women comfy to wear<br>Quantity To select<br><button class="Quantity">Quantity</button><input type="number" value="2" min="1"> <br><button class="Delete">Delete</button><button class="Save For Later">Save For Later</button><P>
+  
+<p ALIGN=CENTER>The price and availability of items on amazon.in are subject to change.<br>The shopping cart is a temporary place to store your list of items and reflects each item's most recent price.<br>Do you have any promotional code?We will ask you to enter your claim code when it's time to pay<p>
+</div>
+
+<div class="content">
+<form name="ShoppingList">
+    <fieldset>
+        <legend>Shopping cart</legend>
+        <label>Item: <input type="text" name="name"></label>
+        <label>Quantity: <input type="text" name="data"></label>
+
+        <input type="button" value="Save"   onclick="SaveItem()">
+        <input type="button" value="Update" onclick="ModifyItem()">
+        <input type="button" value="Delete" onclick="RemoveItem()">
+    </fieldset>
+    <div id="items_table">
+        <h2>Shopping List</h2>
+        <table id="list"></table>
+        <label><input type="button" value="Clear" onclick="ClearAll()">
+        * Delete all items</label>
+    </div>
+</div>
+
+</form>
+
+</html>
