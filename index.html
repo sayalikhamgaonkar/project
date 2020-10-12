@@ -1,294 +1,168 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-
-body {margin:0;font-family:Arial}
-
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="topnav" id="myTopnav">
-
-<nav role="navigation">
+  <nav role="navigation">
     <header role="banner">
-        <a href="#"><img src="/home/sayali/Desktop/shopping website images/shop.png" alt="Logo" width="70" height="50"></a>
-        
+      <!-- Nav Logo -->
+        <a href="#"><img src="./Assets/Images/shop.png" alt="Logo" width="70" height="50"></a>   
     </header>
 
-  <a href="#home" class="active">Home</a>
+    <a href="#home" class="active">Home</a>
 
-  <div class="dropdown">
-    <button class="dropbtn">Men's 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Clothes</a>
-      <a href="#">Shoes</a>
-      <a href="#">Watches</a>
-     <a href="#">Wallets</a> 
-    </div>
-  </div> 
-  
-  <div class="dropdown">
-    <button class="dropbtn">Women's 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Clothes</a>
-      <a href="#">Shoes</a>
-      <a href="#">Watches</a>
-      <a href="#">Cosmetics</a>
-      <a href="#">Handbags</a>
-    </div>
-    </div>
+    <div class="dropdown">
+      <button class="dropbtn flex">Men's 
+        <span class="dropdown-icon"></span>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Clothes</a>
+        <a href="#">Shoes</a>
+        <a href="#">Watches</a>
+        <a href="#">Wallets</a> 
+      </div>
+    </div> 
     
     <div class="dropdown">
-    <button class="dropbtn">Electronics
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Headphones</a>
-      <a href="#">Camera</a>
-      <a href="#">Speakers</a>
+      <button class="dropbtn flex">Women's 
+        <span class="dropdown-icon"></span>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Clothes</a>
+        <a href="#">Shoes</a>
+        <a href="#">Watches</a>
+        <a href="#">Cosmetics</a>
+        <a href="#">Handbags</a>
+      </div>
     </div>
+      
+    <div class="dropdown">
+      <button class="dropbtn flex">Electronics
+        <span class="dropdown-icon"></span>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Headphones</a>
+        <a href="#">Camera</a>
+        <a href="#">Speakers</a>
+      </div>
     </div>
-    
-  <a href="#about">Pantry</a>
-    
-     <div class="dropdown">
-    <button class="dropbtn">Customer Services
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">FAQ'S</a>
-      <a href="#">Your Order</a>
-      <a href="#">Contact Us</a>
-    </div>
-    </div>
-    
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      
+    <a href="#about">Pantry</a>
+      
+       <div class="dropdown">
+      <button class="dropbtn flex">Customer Services
+        <span class="dropdown-icon"></span>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">FAQ'S</a>
+        <a href="#">Your Order</a>
+        <a href="#">Contact Us</a>
+      </div>
+      </div>
+      
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 
 
-
-<div style="padding-left:16px">
+<div>
   
   <h2>Your Gadget Store</h2>
-  <img src="/home/sayali/Desktop/shopping website images/cam1.png" width="250" height="300" hspace="30"> 
-  <img src="/home/sayali/Desktop/shopping website images/cam2.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/cam3.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/cam5.jpeg" width="250" height="300" hspacce="30">
+  <img src="./Assets/Images/cam1.png" width="250" height="300" hspace="30"> 
+  <img src="./Assets/Images/cam2.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/cam3.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/cam5.jpeg" width="250" height="300" hspacce="30">
   
   <h2>Fashion House</h2>
-  <img src="/home/sayali/Desktop/shopping website images/d1.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/d2.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/d5.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/d6.jpeg" width="250" height="300" hspacce="30">
+  <img src="./Assets/Images/d1.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/d2.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/d5.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/d6.jpeg" width="250" height="300" hspacce="30">
   
    <h2>Trending Shoes</h2>
-  <img src="/home/sayali/Desktop/shopping website images/shoes1.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/shoes2.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/shoes3.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/shoes4.jpeg" width="250" height="300" hspacce="30">
+  <img src="./Assets/Images/shoes1.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/shoes2.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/shoes3.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/shoes4.jpeg" width="250" height="300" hspacce="30">
  
-   <h2>Latest Jwellery</h2>
-  <img src="/home/sayali/Desktop/shopping website images/j1.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/j2.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/j3.jpeg" width="250" height="300" hspace="30">
-  <img src="/home/sayali/Desktop/shopping website images/j4.jpeg" width="250" height="300" hspacce="30">
+   <h2>Latest Jewellery</h2>
+  <img src="./Assets/Images/j1.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/j2.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/j3.jpeg" width="250" height="300" hspace="30">
+  <img src="./Assets/Images/j4.jpeg" width="250" height="300" hspacce="30">
   
 </div>
-
+<!-- Footer -->
 <footer>
-<div class="footer">
- <div class="left box">
- <h2>About Us </h2>
- <div class="content">
-<p> The website where you will get all the products<br>The electronic gadgets the cameras <br> The trending fashion clothes dress,sarees and western wear<br>Branded shoes for both boys and girls<br>The daily essential in Pantry</p>
-
-<div class="social">
-<i class="fa fa-facebook" style="font-size:36px;"></i>
-<i class="fa fa-twitter" style="font-size:36px;"></i>
-<i class="fa fa-instagram" style="font-size:36px;"></i>
-<i class="fa fa-linkedin" style="font-size:36px;"></i>
-</div>
-
-
-</div>
-</div>
-
-<div class="center box">
-<h2>Address</h2>
-<div class="content">
-<div class="place">
-<span class="fas fa-map-marker-alt"></span>
-<span class="text">Devdarshan bldg,Sec-34,Shop No-3,Mansarovar</span>
-</div>
-<div class="phone">
-<span class="fas fa-phone-alt"></span>
-<span class="text">+91 7710811130</span>
-</div>
-<div class="email">
-<span class="fas fa-envelop"></span>
-<span class="text">sayalijkhamgaonkar@gmail.com</span>
-</div>
-</div>
-</div>
-
-<div class=right box">
-<h2>Contact Us</h2>
-<div class="content">
-<form action="#">
-<div class="email">
-  <divclass="text">Email *</div>
-<input type="email" required>
-</div>
-
-
-<div class="msg">
-<div class="text">Message *</div>
-<textarea rows="2" cols="25" required></textarea>
-</div>
-
-<div class="btn">
-<button type="submit">SEND</button>
-</div>
-</form>
-</div>
-</div>
-
-<div class="footer">
-<p>Popular Seraches<br>Dress|Pantry|Shoes|Sandles|Jwellery|Handbags</p>
-</div>
-
-
-
+    <!-- Left Box -->
+    <div class="container footer-container">
+        <div class="left-box">
+            <h2>About Us </h2>
+            <div class="content">
+                <p> The website where you will get all the products you wish from electronic gadgets, cameras to trending fashion dresses ,sarees, shirts and many more</p>
+            </div>
+            <h2>Address</h2>
+            <div class="content">
+                <div class="place">
+                  <span class="fa fa-map-marker-alt"></span>
+                  <span class="text">Devdarshan bldg,Sec-34,Shop No-3,Mansarovar</span>
+                </div>
+                <div class="phone">
+                  <span class="fa fa-phone-alt"></span>
+                  <span class="text">+91 7710811130</span>
+                </div>
+                <div class="email">
+                  <span class="fa fa-envelop"></span>
+                  <span class="text">support@shop.com</span>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Center Box -->
+        <!-- <div class="center-box">
+            
+        </div> -->
+        <!-- Right Box -->
+        <div class="right-box">
+            <h2>Contact Us</h2>
+            <div class="content">
+                <form action="#" class="container">
+                    <!-- Email -->
+                    <div class="flex">
+                        <label class="text" for='email'>Email *</label>
+                        <input type="email" id='email' class="input" required>
+                    </div>
+                    <!-- Feedback -->
+                    <div class="flex">
+                        <label class="text" for='msg'>Feedback</label>
+                        <textarea class="input" rows="6" cols="25" id='msg'></textarea>
+                    </div>
+                    <button type="submit" class="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popular container flex">
+        <p>Popular Seraches:
+            <a class="search-item" href="#">Dress | </a>
+            <a class="search-item" href="#">Shoes | </a>
+            <a class="search-item" href="#">Sandles | </a>
+            <a class="search-item" href="#">Jewellery | </a> 
+            <a class="search-item" href="#">Handbags</a>   
+        </p>
+    </div>
+    <div class="social flex-space">
+        <span class="social-icon face-icon"></span>
+        <span class="social-icon twitter-icon"></span>
+        <span class="social-icon insta-icon"></span>
+        <span class="social-icon linkedin-icon"></span>
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
 
