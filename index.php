@@ -1,45 +1,45 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
 
 <div class="topnav" id="myTopnav">
-  <nav role="navigation">
+    <nav role="navigation">
     <header role="banner">
-      <!-- Nav Logo -->
+        <!-- Nav Logo -->
         <a href="#"><img src="./Assets/Images/shop.png" alt="Logo" width="70" height="50"></a>   
     </header>
 
     <a href="#home" class="active">Home</a>
 
     <div class="dropdown">
-      <button class="dropbtn flex">Men's 
-        <span class="dropdown-icon"></span>
-      </button>
-      <div class="dropdown-content">
+        <button class="dropbtn flex">Men's 
+            <span class="dropdown-icon"></span>
+        </button>
+    <div class="dropdown-content">
         <a href="#">Clothes</a>
         <a href="#">Shoes</a>
         <a href="#">Watches</a>
         <a href="#">Wallets</a> 
-      </div>
-    </div> 
-    
-    <div class="dropdown">
-        <button class="dropbtn flex">Women's 
-            <span class="dropdown-icon"></span>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">Clothes</a>
-            <a href="#">Shoes</a>
-            <a href="#">Watches</a>
-            <a href="#">Cosmetics</a>
-            <a href="#">Handbags</a>
-        </div>
     </div>
+</div> 
+    
+<div class="dropdown">
+    <button class="dropbtn flex">Women's 
+        <span class="dropdown-icon"></span>
+    </button>
+    <div class="dropdown-content">
+        <a href="#">Clothes</a>
+        <a href="#">Shoes</a>
+        <a href="#">Watches</a>
+        <a href="#">Cosmetics</a>
+        <a href="#">Handbags</a>
+    </div>
+</div>
       
     <div class="dropdown">
         <button class="dropbtn flex">Electronics
@@ -64,6 +64,7 @@
     </div>      
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+<!-- Advertisement Box -->
 <div class="advert-box">
       <div class="left-arrow-box flex">
             <span class="left-arrow arrow"></span>
@@ -73,14 +74,13 @@
       </div>
       <div class="advert flex">
 
-      </div>
-      
+      </div>  
 </div>
 
 
 
 <div>  
-    <h2>Your Gadget Store</h2>
+    <!-- <h2>Your Gadget Store</h2>
     <img src="./Assets/Images/cam1.png" width="250" height="300" hspace="30"> 
     <img src="./Assets/Images/cam2.jpeg" width="250" height="300" hspace="30">
     <img src="./Assets/Images/cam3.jpeg" width="250" height="300" hspace="30">
@@ -98,7 +98,7 @@
     <img src="./Assets/Images/shoes3.jpeg" width="250" height="300" hspace="30">
     <img src="./Assets/Images/shoes4.jpeg" width="250" height="300" hspacce="30">
 
-
+     -->
 <!--Div Images -->
 <div>
 
@@ -106,55 +106,51 @@
     <h2>Your Gadget Store</h2>
 
 <div class="card"><!--Div card -->
-<div class="flex"><!--Div flex -->
+    <div class="flex"><!--Div flex -->
+        <div class="item1">
+            <img src="./Assets/Images/cam1.png" width="200" height="200" hspace="30"> 
+            <h1>Camera</h1>
+            <p class="price">$19.99</p>
+            <p>Smart Digital Camera.</p>
+            <button>Add to Cart</button>
+        </div><!--Div Item Close-->
 
-<div class="item1"><!--Div Item -->
-  <img src="./Assets/Images/cam1.png" width="200" height="200" hspace="30"> 
-  <h1>Camera</h1>
-  <p class="price">$19.99</p>
-  <p>Smart Digital Camera.</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close-->
-
-
-
-
-<div class="item 2"><!--Div Item -->
-<div class="card"><!--Div card -->
- <img src="./Assets/Images/cam2.jpeg" width="200" height="200" hspace="30">
-<h1>Camera</h1>
-  <p class="price">$20.90</p>
-  <p>Smart Digital Camera 2.</p>
-  <button>Add to Cart</button>
-</div><!--Div card close -->
-</div ><!--Div Item close-->
+        <div class="item 2"><!--Div Item -->
+            <div class="card"><!--Div card -->
+                <img src="./Assets/Images/cam2.jpeg" width="200" height="200" hspace="30">
+                <h1>Camera</h1>
+                <p class="price">$20.90</p>
+                <p>Smart Digital Camera 2.</p>
+                <button>Add to Cart</button>
+            </div><!--Div card close -->
+        </div ><!--Div Item close-->
 
 
-<div class="item3"><!--Div Item -->
-<div class="card"><!--Div card -->
- <img src="./Assets/Images/cam3.jpeg" width="200" height="200" hspace="30">
-<h1>Camera</h1>
-  <p class="price">$20.90</p>
-  <p>Smart Digital Camera 3.</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close -->
-</div><!--Div Card Close -->
+        <div class="item3"><!--Div Item -->
+            <div class="card"><!--Div card -->
+                <img src="./Assets/Images/cam3.jpeg" width="200" height="200" hspace="30">
+                <h1>Camera</h1>
+                <p class="price">$20.90</p>
+                <p>Smart Digital Camera 3.</p>
+                <button>Add to Cart</button>
+            </div><!--Div Item Close -->
+        </div><!--Div Card Close -->
 
 
 
 
-<div class="item4"><!--Div Item -->
-<div class="card"><!--Div card -->
- <img src="./Assets/Images/cam5.jpeg" width="200" height="200" hspace="30">
-<h1>Camera</h1>
-  <p class="price">$20.90</p>
-  <p>Smart Digital Camera 4.</p>
-  <button>Add to Cart</button>
-</div><!--Div Item close -->
-</div><!--Div Card close -->
+        <div class="item4"><!--Div Item -->
+            <div class="card"><!--Div card -->
+                <img src="./Assets/Images/cam5.jpeg" width="200" height="200" hspace="30">
+                <h1>Camera</h1>
+                <p class="price">$20.90</p>
+                <p>Smart Digital Camera 4.</p>
+                <button>Add to Cart</button>
+            </div><!--Div Item close -->
+        </div><!--Div Card close -->
 
-</div><!--Div gadget close -->
-  </div><!--Div flex close -->
+    </div><!--Div gadget close -->
+</div><!--Div flex close -->
 
 
 
@@ -323,73 +319,11 @@
 
 
 <!-- Footer -->
-<footer>
-
-    <!-- Left Box -->
-    <div class="container footer-container">
-        <div class="left-box">
-            <h2>About Us </h2>
-            <div class="content">
-                <p> The website where you will get all the products you wish from electronic gadgets, cameras to trending fashion dresses ,sarees, shirts and many more</p>
-            </div>
-            <h2>Address</h2>
-            <div class="content">
-                <div class="place">
-                  <span class="fa fa-map-marker-alt"></span>
-                  <span class="text">Devdarshan bldg,Sec-34,Shop No-3,Mansarovar</span>
-                </div>
-                <div class="phone">
-                  <span class="fa fa-phone-alt"></span>
-                  <span class="text">+91 7710811130</span>
-                </div>
-                <div class="email">
-                  <span class="fa fa-envelop"></span>
-                  <span class="text">support@shop.com</span>
-                </div>
-            </div>
-            
-        </div>
-        <!-- Center Box -->
-        <!-- <div class="center-box">
-            
-        </div> -->
-        <!-- Right Box -->
-        <div class="right-box">
-            <h2>Contact Us</h2>
-            <div class="content">
-                <form action="#" class="container">
-                    <!-- Email -->
-                    <div class="flex">
-                        <label class="text" for='email'>Email *</label>
-                        <input type="email" id='email' class="input" required>
-                    </div>
-                    <!-- Feedback -->
-                    <div class="flex">
-                        <label class="text" for='msg'>Feedback</label>
-                        <textarea class="input" rows="6" cols="25" id='msg'></textarea>
-                    </div>
-                    <button type="submit" class="submit">SEND</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="popular container flex">
-        <p>Popular Seraches:
-            <a class="search-item" href="#">Dress | </a>
-            <a class="search-item" href="#">Shoes | </a>
-            <a class="search-item" href="#">Sandles | </a>
-            <a class="search-item" href="#">Jewellery | </a> 
-            <a class="search-item" href="#">Handbags</a>   
-        </p>
-    </div>
-    <div class="social flex-space">
-        <span class="social-icon face-icon"></span>
-        <span class="social-icon twitter-icon"></span>
-        <span class="social-icon insta-icon"></span>
-        <span class="social-icon linkedin-icon"></span>
-    </div>
-
-</footer>
-<script src="script.js"></script>
+    <footer>
+        <?php
+            include 'footer.php';
+        ?>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
