@@ -8,20 +8,44 @@
     background:url('./Assets/Icons/twitter.svg');   
 }
 .linkedin-icon{
-  background:url('./Assets/Icons/linkedin.svg'); 
+    background:url('./Assets/Icons/linkedin.svg'); 
 }
 .social-icon{
-  background-size:2em;
-  background-repeat: no-repeat;
-  width: 2em;
-  height:2em;
+    background-size:2em;
+    background-repeat: no-repeat;
+    width: 2em;
+    height:2em;
+}
+.phone,.place,.email{
+  justify-content: center;
+  /*border:1px solid red;*/
+}
+.place{
+  width: 80%;
+  margin:0 auto;
+}
+.location-icon{
+  background:url('./Assets/Icons/location.svg');
+}
+.phone-icon{
+  background:url('./Assets/Icons/phone.svg');
+}
+.email-icon{
+  background:url('./Assets/Icons/email.svg');
+}
+.contact-icons{
+  /*border:1px solid red;*/
+    background-size:1.5em;
+    background-repeat: no-repeat;
+    width: 1.5em;
+    height:1.5em; 
 }
 footer {
     width: 100%;
     background-color: #f1f1f1;
     padding:1em 0;
     text-align: center;
-  }
+}
 .social{
     padding:1em 0;
     width: 60%;
@@ -33,6 +57,17 @@ form label{
     /*border:1px solid red;*/
     text-align: left;
     width:30%;
+}
+.input{
+    width:60%;
+    padding:0.5em;
+    border-radius:5px;
+}
+.submit{
+  margin-top:1em;
+  width:70%;
+  padding:0.3em 0.5em;
+  cursor: pointer;
 }
 @media (min-width: 720px){
   /*Footer*/
@@ -78,15 +113,4 @@ form label{
     width: 20%;
     cursor: pointer;
   }
-}
-.input{
-    width:60%;
-    padding:0.5em;
-    border-radius:5px;
-}
-.submit{
-  margin-top:1em;
-  width:70%;
-  padding:0.3em 0.5em;
-  cursor: pointer;
 }
