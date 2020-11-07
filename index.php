@@ -6,64 +6,34 @@
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-
-<div class="topnav" id="myTopnav">
-    <nav role="navigation">
-    <header role="banner">
-        <!-- Nav Logo -->
-        <a href="#"><img src="./Assets/Images/shop.png" alt="Logo" width="70" height="50"></a>   
+    <header>
+        <div class="container flex-space">
+            <div class="logo-container">
+                <img src="Images/" alt="Logo" class="logo">
+            </div>
+            <div class="search-box-container flex">
+                <span class="search-icon"></span>
+                <input type="text" class="search-box" placeholder="Search Products">
+            </div>
+            <nav class="flex-space">
+                <ul class="nav-list nav-list-primary flex-space">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+                </ul>
+                <div class="cart-container flex">
+                    <span class="cart-icon"></span>
+                    <span class="cart">My Cart</span>
+                </div>
+                <ul class="nav-list nav-list-secondary flex-space">
+                    <li class="nav-item"><a href="#" class="nav-link-button">Sign In</a></li>
+                    <!-- <li class="nav-item"><a href="#" class="nav-link-button">Sign up</a></li> -->
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <a href="#home" class="active">Home</a>
-
-    <div class="dropdown">
-        <button class="dropbtn flex">Men's 
-            <span class="dropdown-icon"></span>
-        </button>
-    <div class="dropdown-content">
-        <a href="#">Clothes</a>
-        <a href="#">Shoes</a>
-        <a href="#">Watches</a>
-        <a href="#">Wallets</a> 
-    </div>
-</div> 
-    
-<div class="dropdown">
-    <button class="dropbtn flex">Women's 
-        <span class="dropdown-icon"></span>
-    </button>
-    <div class="dropdown-content">
-        <a href="#">Clothes</a>
-        <a href="#">Shoes</a>
-        <a href="#">Watches</a>
-        <a href="#">Cosmetics</a>
-        <a href="#">Handbags</a>
-    </div>
-</div>
-      
-    <div class="dropdown">
-        <button class="dropbtn flex">Electronics
-            <span class="dropdown-icon"></span>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">Headphones</a>
-            <a href="#">Camera</a>
-            <a href="#">Speakers</a>
-        </div>
-    </div>
-    <a href="#about">Pantry</a>
-    <div class="dropdown">
-        <button class="dropbtn flex">Customer Services
-            <span class="dropdown-icon"></span>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">FAQ'S</a>
-            <a href="#">Your Order</a>
-            <a href="#">Contact Us</a>
-        </div>
-    </div>      
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
 <!-- Advertisement Box -->
 <div class="advert-box">
       <div class="left-arrow-box flex">
@@ -76,133 +46,260 @@
 
       </div>  
 </div>
+<div class="products-section">
+    <div class="container">
+        <h2 class="head">Featured Gadget Deals</h2>
+        <div class="featured flex">
+            <div class="card">
+                <div class="product-image-container">
+                    <!-- <span class="tag">10% OFF</span> -->
+                    <img src="./Assets/Images/j3.jpeg" alt="" class="product-img">
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <span class="name">Canon Digital Camera</span>
+                        <div class="rating-container flex">
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <span class="cost">&#8377;60,000</span>
+                        <button class="cart-button">ADD TO CART</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image-container">
+                    <span class="tag">10% OFF</span>
+                    <img src="./Assets/Images/j3.jpeg" alt="" class="product-img">
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <span class="name">Canon Digital Camera</span>
+                        <div class="rating-container flex">
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <span class="cost">&#8377;60,000</span>
+                        <button class="cart-button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image-container">
+                    <span class="tag">10% OFF</span>
+                    <img src="./Assets/Images/j3.jpeg" alt="" class="product-img">
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <span class="name">Canon Digital Camera</span>
+                        <div class="rating-container flex">
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <span class="cost">&#8377;60,000</span>
+                        <button class="cart-button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image-container">
+                    <span class="tag">10% OFF</span>
+                    <img src="./Assets/Images/j3.jpeg" alt="" class="product-img">
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <span class="name">Canon Digital Camera</span>
+                        <div class="rating-container flex">
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <span class="cost">&#8377;60,000</span>
+                        <button class="cart-button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image-container">
+                    <span class="tag">10% OFF</span>
+                    <img src="./Assets/Images/j3.jpeg" alt="" class="product-img">
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <span class="name">Canon Digital Camera</span>
+                        <div class="rating-container flex">
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <span class="cost">&#8377;60,000</span>
+                        <button class="cart-button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>Some Products</h2>
+        <div class="featured flex">
+            <div class="card">
+                <div class="product-image-container">
+                    <span class="tag">10% OFF</span>
+                    <img src="./Assets/Images/j3.jpeg" alt="" class="product-img">
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <span class="name">Canon Digital Camera</span>
+                        <div class="rating-container flex">
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <span class="cost">&#8377;60,000</span>
+                        <button class="cart-button">ADD TO CART</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image-container">
+                    <span class="tag">10% OFF</span>
+                    <img src="./Assets/Images/j3.jpeg" alt="" class="product-img">
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <span class="name">Canon Digital Camera</span>
+                        <div class="rating-container flex">
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star-rate"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <span class="cost">&#8377;60,000</span>
+                        <button class="cart-button">ADD TO CART</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-
-<div>  
-    <!-- <h2>Your Gadget Store</h2>
-    <img src="./Assets/Images/cam1.png" width="250" height="300" hspace="30"> 
-    <img src="./Assets/Images/cam2.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/cam3.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/cam5.jpeg" width="250" height="300" hspacce="30">
-
-    <h2>Fashion House</h2>
-    <img src="./Assets/Images/d1.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/d2.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/d5.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/d6.jpeg" width="250" height="300" hspacce="30">
-
-    <h2>Trending Shoes</h2>
-    <img src="./Assets/Images/shoes1.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/shoes2.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/shoes3.jpeg" width="250" height="300" hspace="30">
-    <img src="./Assets/Images/shoes4.jpeg" width="250" height="300" hspacce="30">
-
-     -->
+<!-- <div>   -->
 <!--Div Images -->
-<div>
+<!-- <div>
 
 
-    <h2>Your Gadget Store</h2>
+    
 
-<div class="card"><!--Div card -->
-    <div class="flex"><!--Div flex -->
+<div class="card">
+    <div class="flex">
         <div class="item1">
             <img src="./Assets/Images/cam1.png" width="200" height="200" hspace="30"> 
             <h1>Camera</h1>
             <p class="price">$19.99</p>
             <p>Smart Digital Camera.</p>
-            <button>Add to Cart</button>
-        </div><!--Div Item Close-->
+            <button>ADD TO CART</button>
+        </div>Div Item Close
 
-        <div class="item 2"><!--Div Item -->
-            <div class="card"><!--Div card -->
+        <div class="item2">Div Item 
+            <div class="card">iv card
                 <img src="./Assets/Images/cam2.jpeg" width="200" height="200" hspace="30">
                 <h1>Camera</h1>
                 <p class="price">$20.90</p>
                 <p>Smart Digital Camera 2.</p>
-                <button>Add to Cart</button>
-            </div><!--Div card close -->
-        </div ><!--Div Item close-->
+                <button>ADD TO CART</button>
+            </div>Div card close 
+        </div >Div Item close
 
 
-        <div class="item3"><!--Div Item -->
-            <div class="card"><!--Div card -->
+        <div class="item3">
+            <div class="card">
                 <img src="./Assets/Images/cam3.jpeg" width="200" height="200" hspace="30">
                 <h1>Camera</h1>
                 <p class="price">$20.90</p>
                 <p>Smart Digital Camera 3.</p>
-                <button>Add to Cart</button>
-            </div><!--Div Item Close -->
-        </div><!--Div Card Close -->
+                <button>ADD TO CART</button>
+            </div>
+        </div>
 
 
 
 
-        <div class="item4"><!--Div Item -->
-            <div class="card"><!--Div card -->
+        <div class="item4">
+            <div class="card">
                 <img src="./Assets/Images/cam5.jpeg" width="200" height="200" hspace="30">
                 <h1>Camera</h1>
                 <p class="price">$20.90</p>
                 <p>Smart Digital Camera 4.</p>
-                <button>Add to Cart</button>
-            </div><!--Div Item close -->
-        </div><!--Div Card close -->
+                <button>ADD TO CART</button>
+            </div>
+        </div>
 
-    </div><!--Div gadget close -->
-</div><!--Div flex close -->
+    </div>
+</div>
 
 
 
 
 
 <div>
-<!-- Clothes -->
-   <div>  <!--Div for Fashion Images -->
   <h2>Fashion House</h2>
 
-<div class="card"><!--Div card -->     
-<div class="flex"><!--Div Flex -->
-  
-<div class="item5"><!--Div Items -->
+  \
   <img src="./Assets/Images/d1.jpeg" width="200" height="200" hspace="30">
 <h1>Dress</h1>
   <p class="price">$20.90</p>
   <p>Simple Dress.</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close -->
+  <button>ADD TO CART</button>
 
 
- <div class="item6"><!--Div Item -->
-<div class="card"><!--Div card -->
+ <div class="item6">
+<div class="card">
   <img src="./Assets/Images/d2.jpeg" width="200" height="200" hspace="30">
 <h1>Western</h1>
   <p class="price">$20.90</p>
   <p>Western Wear.</p>
-  <button>Add to Cart</button>
-</div><!--Div Item close  -->
-</div><!--Div card close -->
+  <button>ADD TO CART</button>
+</div>
+</div>
 
-<div class="item7"><!--Div Item -->
-<div class="card"><!--Div card -->
+<div class="item7">
+<div class="card">
   <img src="./Assets/Images/d5.jpeg" width="200" height="200" hspace="30">
 <h1>Dress</h1>
   <p class="price">$20.90</p>
   <p>Dress</p>
-  <button>Add to Cart</button>
-</div><!--Div Item close  -->
-</div><!--Div card close -->
+  <button>ADD TO CART</button>
+</div>
+</div>
 
-<div class="item8"><!--Div Item -->
-<div class="card"><!--Div card -->
+<div class="item8">
+<div class="card">
   <img src="./Assets/Images/d6.jpeg" width="200" height="200" hspace="30">
 <h1>Western</h1>
   <p>$20.90</p>
   <p>Saree.</p>
-  <button>Add to Cart</button>
-</div><!--Div Item close  -->
-</div><!--Div card close -->
-  </div><!--Div clothes close -->
+  <button>ADD TO CART</button>
+</div>
+</div>
+  </div>
 </div>
 </div>
 </div>
@@ -210,113 +307,113 @@
 
 
 
-<div><!--Div shoes-->
+<div>
    <h2>Trending Shoes</h2>
-<div class="card"><!--Div card -->
- <div class="flex"><!--Div Flex -->
+<div class="card">
+ <div class="flex">
 
   
-<div class="item9"><!--Div Item -->
+<div class="item9">
    <img src="./Assets/Images/shoes1.jpeg" width="200" height="200" hspace="30">
 <h1>Shoes</h1>
   <p class="price">$27.90</p>
   <p>Brandy Shoes</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close-->
+  <button>ADD TO CART</button>
+</div>
 
 
 
-<div class="item10"><!--Div Item -->
-<div class="card"><!--Div Card -->
+<div class="item10">
+<div class="card">
    <img src="./Assets/Images/shoes2.jpeg" width="200" height="200" hspace="30">
 <h1>Shoes</h1>
   <p class="price">$27.90</p>
   <p>Brandy Shoes</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close-->
-</div><!--Div card close -->
+  <button>ADD TO CART</button>
+</div>
+</div>
 
 
 
-<div class="item11"><!--Div Item -->
-<div class="card"><!--Div Card -->
+<div class="item11">
+<div class="card">
    <img src="./Assets/Images/shoes3.jpeg" width="200" height="200" hspace="30">
 <h1>Shoes</h1>
   <p class="price">$27.90</p>
   <p>Brandy Shoes</p>
-  <button>Add to Cart</button>
-</div><!--Div Item close-->
-</div><!--Div Card Close -->
+  <button>ADD TO CART</button>
+</div>
+</div>
 
 
-<div class="item12"><!--Div Item -->
-<div class="card"><!--Div Card -->
+<div class="item12">
+<div class="card">
    <img src="./Assets/Images/shoes4.jpeg" width="200" height="200" hspace="30">
 <h1>Shoes</h1>
   <p class="price">$27.90</p>
   <p>Brandy Shoes</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close -->
- </div><!--Div Card Close -->
-</div><!--Div Shoes Close -->
-</div><!--Div Flex Close -->
+  <button>ADD TO CART</button>
+</div>
+ </div>
+</div>
+</div>
  
   
 
 
-<div><!--Div Jwell -->
+<div>>
  <h2>Latest Jewellery</h2>
 
-<div class="card"><!--Div Item -->
-<div class="flex"><!--Div flex-->
+<div class="card">
+<div class="flex">
 
 
-<div class="item13"><!--Div Item-->
+<div class="item13">
    <img src="./Assets/Images/j1.jpeg" width="200" height="200" hspace="30">
 <h1>Jwellery</h1>
   <p class="price">$35.90</p>
   <p>Jwellery</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close-->
+  <button>ADD TO CART</button>
+</div>
 
 
-<div class="item14"><!--Div Item -->
-<div class="card"><!--Div Card -->
+<div class="item14">
+<div class="card">
    <img src="./Assets/Images/j2.jpeg" width="200" height="200" hspace="30">
 <h1>Jwellery</h1>
   <p class="price">$35.90</p>
   <p>Jwellery</p>
-  <button>Add to Cart</button>
-</div><!--Div Item Close -->
-</div><!--Div Card Close-->
+  <button>ADD TO CART</button>
+</div>
+</div>
 
 
 
-<div class="item15"><!--Div Item -->
-<div class="card"><!--Div Card -->
+<div class="item15">
+<div class="card">
    <img src="./Assets/Images/j3.jpeg" width="200" height="200" hspace="30">
 <h1>Jwellery</h1>
   <p class="price">$35.90</p>
   <p>Jwellery</p>
-  <button>Add to Cart</button>
-</div><!--Div Item close -->
-</div><!--Div Card Close-->
+  <button>ADD TO CART</button>
+</div>
+</div>
 
 
-<div class="item16"><!--Div Item -->
-<div class="card"><!--Div Card -->
+<div class="item16">
+<div class="card">
    <img src="./Assets/Images/j4.jpeg" width="200" height="200" hspace="30">
 <h1>Jwellery</h1>
   <p class="price">$35.90</p>
   <p>Jwellery</p>
-  <button>Add to Cart</button>
-</div><!--Div Item close -->
-</div><!--Div Card close -->
- </div><!--Div jwell -->
-</div><!--Div flex -->
+  <button>ADD TO CART</button>
+</div>
+</div>
+ </div>
+</div>
 </div>
 
-
+ -->
 
 <!-- Footer -->
     <footer>
