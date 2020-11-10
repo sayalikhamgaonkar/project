@@ -32,80 +32,11 @@ span{
     width: 90%;
     margin: 0 auto;
 }
-.logo-container{
-  border:1px solid green;
-}
+
 .hide{
     display: none;
 }
-/*Nav bar*/
-header{
-  z-index: 300;
-  background-color: #210B61;
-  color: #fff;
-  position: sticky;
-  top:0;
-  left: 0;
-  /*margin-bottom:0.1em;*/
-  width: 100%;
-  box-shadow:5px 0 5px 0 gray;
-}
-nav{
-  /*border:1px solid red;*/
-  width:45%;
-  /*font-size: 0.9rem;*/
-}
-.cart-container{
-  /*border:1px solid red;*/
-  margin-left:1em;
-}
-.cart-icon{
-  background:url('./Assets/Icons/cart.svg');
-  filter: invert(100%);
-  background-size: 1.5em;
-  height:1.5em;
-  width:1.5em;
-  background-repeat: no-repeat;
-}
-.nav-link-button{
-  border:1px solid #ECCD04;
-  color:#ECCD04;
-  font-weight: 600;
-  border-radius: 15px;
-  padding:5px 25px;
-}
-.nav-link-button:hover{
-  background-color: #ECCD04;
-  color:#210B61;
-}
-.search-box-container{
-  /*border:1px solid red;*/
-  border-radius: 5px;
-  box-shadow: 0 0 3px 0.5px gray;
-  background:whitesmoke;
-  padding:0 0.5em;
-  margin-left:0;
-  width:40%;
-}
-.search-icon{
-  background:url('./Assets/Icons/search.svg');
-  background-size: 1em;
-  height:1em;
-  width:1em;
-  background-repeat: no-repeat;
-}
-.search-box{
-  border:0;
-  width:80%;
-  background: transparent;
-  padding:0.5em 1em;
-}
-.nav-list-primary{
-  /*border:1px solid green;*/
-}
-.nav-item + .nav-item{
-  margin-left: 1.5em;
-}
+
 /*Advertisment Part*/
 .advert-box{
   width:100%;
@@ -115,14 +46,14 @@ nav{
     width:5%;
     /*background-color: yellow;*/
     justify-content: center;
-    top:40%;
+    top:32%;
 }
 .left-arrow-box{
     left:0.3em;
 }
 .right-arrow-box{
     right:0.3em;
-    top:40.2%;
+    /*top:32%;*/
     /*justify-self:flex-end; */
 }
 .left-arrow{
