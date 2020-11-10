@@ -10,6 +10,10 @@ header{
   width: 100%;
   box-shadow:5px 0 5px 0 gray;
 }
+a{
+  text-decoration: none;
+  color:#FFF;
+}
 nav{
   /*border:1px solid red;*/
   width:45%;

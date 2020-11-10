@@ -45,8 +45,12 @@
                             <span class="star"></span>
                         </div>
                         <span class="cost">&#8377;60,000</span>
-                        <button class="cart-button">ADD TO CART</button>
+                        <!-- ADD TO CART </a> -->
 
+                        <!-- <form method='post'> -->
+                        	<a href="ProductDes.php?id=9"><button class="cart-button" name='cart'>ADD TO CART</button></a>
+                        	<!-- <input type="hidden" class="hidden-cart"> -->
+                        <!-- </form> -->
                     </div>
                 </div>
             </div>
